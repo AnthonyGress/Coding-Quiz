@@ -8,6 +8,31 @@
     <title>Coding quiz</title>
 </head>
 <body>
-    <script src="./assets/js/script.js"></script>
+    <header id="header-wrap">
+        <a href="./highscores.html">
+            <div class="highscores"><button class="score">Highscores</button></div>
+        </a>
+        <div class="timer-wrapper">Time: <span class="time">0</span></div>
+    </header>
+    <main class="wrapper">
+        <div id="start-page" class="start">
+            <h1>Coding Quiz</h1>
+            <p>This is a quiz to test your knowledge as a programmer.</p>
+            <button id="start-button">Start</button>
+        </div>
+        <!-- make this a card -->
+        <div id="questions-box" class="hide">
+            <h2 id="question"></h2>
+            <div id="answer-options"></div>
+        </div>
+        <div id="endgame" class="hide">
+            <h2>Game Over</h2>
+            <p>Your final score is <span id="final-score"></span></p>
+            <p>Enter your name: <input type="text" id="name"></p>
+            <button id="submit">Submit</button>
+        </div>
+    </main>
+    <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/engine.js"></script>
 </body>
 </html>

@@ -1,0 +1,103 @@
+#header-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+:root {
+    --primary-color: #161625;
+    --secondary-color: #ffffff;
+    --font-color: #fff;
+    --bg-color: #536390;
+    --heading-color: #fff;
+}
+  
+  [data-theme="dark"] {
+    --primary-color: #9f9cf3;
+    --secondary-color: #3e538f;
+    --font-color: #fff;
+    --bg-color: #161625;
+    --heading-color: #fff;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+}
+
+button {
+    padding: .5rem;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+
+#start-button {
+    padding: .5rem 2rem;
+}
+
+.highscores {
+    flex: 0 0 1;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.timer-wrapper {
+    flex: 0 0 1;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+.hide {
+    display: none;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+#answer-options {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.choice {
+    margin: .75rem 0;
+}
+
+#check {
+    font-size: 1.25rem;
+}
+
+#back {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+#show-highscores {
+    display: flex;
+    justify-content: center;
+}
+
+#player-name {
+    flex: 0 0 50%;
+    text-align: right;
+    padding-right: 4rem;
+}
+
+#player-score {
+    flex: 0 0 50%;
+}
+
+.center {
+    text-align: center;
+}
