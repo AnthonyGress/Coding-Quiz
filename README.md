@@ -5,5 +5,5 @@ This quiz was written in JavaScript to test our knowledge of JavaScript. It cont
 Enjoy the game! Click the link below!
 https://techx-guy.github.io/Coding-Quiz/
 
-# Screenshot
+## Screenshot
 <img width="961" alt="Screen Shot 2021-06-28 at 3 00 34 PM" src="https://user-images.githubusercontent.com/70029654/123689905-c7a60a00-d821-11eb-9728-929e15df35a9.png">
