@@ -25,8 +25,8 @@ var questionsArray = [
         answer: "Function",
     },
     {
-        questionHeader: "What is your quest?",
-        options: ["Money", "Programming", "Luxuries", "Knowledge & Understanding"],
-        answer: "Knowledge & Understanding",
+        questionHeader: "What is the airspeed velocity of an unladen swallow?",
+        options: ["10 m/s", "5m/s", "12 m/s", "An African or European Swallow?"],
+        answer: "An African or European Swallow?",
     },
 ];

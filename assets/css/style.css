@@ -6,7 +6,7 @@
 
 :root {
     --primary-color: #161625;
-    --secondary-color: #ffffff;
+    --secondary-color: #84678b;
     --font-color: #fff;
     --bg-color: #536390;
     --heading-color: #fff;
@@ -49,6 +49,10 @@ button {
     padding-top: 1rem;
 }
 
+.timer{
+    cursor: default;
+}
+
 .timer-wrapper {
     flex: 0 0 1;
     padding-right: 1rem;
@@ -61,6 +65,10 @@ button {
 
 .wrapper {
     text-align: center;
+}
+
+#questions-box{
+
 }
 
 #answer-options {
@@ -95,6 +103,7 @@ button {
 }
 
 #player-score {
+    padding-left: 2rem;
     flex: 0 0 50%;
 }
 

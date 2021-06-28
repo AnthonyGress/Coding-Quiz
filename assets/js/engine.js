@@ -74,16 +74,18 @@ function checkAnswer(selectedAnswerValue){
         //play incorrect sound
         new Audio('./assets/audio/Incorrect.mp3').play();
         // subtract time for incorrect and move to next question
-        time = time - 15;
+        time = time - 10;
         questionIndex++;
         fetchCurrentQuestion();
     }
 };
 
 function gameOver(){
+
     stopTimer();
     // store score as remaining time
     if (time > 0){
+        // add one to account for lag between timer and score
         finalScore = time+1;
     }
     else {

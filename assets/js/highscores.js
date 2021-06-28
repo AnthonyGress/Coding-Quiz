@@ -3,7 +3,11 @@ var playerEl = document.querySelector("#player-name");
 var scoreEl = document.querySelector("#player-score");
 var clearBtn = document.querySelector("#clear")
 
-console.log(highScoreList);
+// sort highscore to highest at top
+highScoreList.sort((b,a) => {
+    return a.score - b.score;
+});
+
 // print out all player names
 for (let i = 0; i < highScoreList.length; i++) {
     var playerNode = document.createElement("p");
@@ -23,5 +27,5 @@ function clearStorage(){
     // clear local storage
     localStorage.clear();
     // refresh page
-    window.location.reload();
+    location.reload();
 }
