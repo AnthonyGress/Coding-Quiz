@@ -113,14 +113,12 @@ function saveScore(){
     // if there is no highScores saved, make an array and store the current high score
     if (highScore == null){
         var highScore = [];
-        console.log("no high scores saved");
         highScore.push(currentHighScore);
 
     }
     // otherwise, there is a JSON already and just append this score to the end of that array
     else {
         highScore.push(currentHighScore);
-        console.log("parsed JSON " + highScore);
     }
     //write highScore to local storage
     localStorage.setItem("highScore", JSON.stringify(highScore));
