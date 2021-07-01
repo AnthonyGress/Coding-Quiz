@@ -28,7 +28,7 @@ h1 {
     text-align: center;
 }
 
-body {
+body, html {
     background-color: var(--bg-color);
     color: var(--font-color);
 }
